@@ -55,7 +55,7 @@
     </scm>
 
     <properties>
-        <version.keycloak>2.0.0.Final</version.keycloak>
+        <version.keycloak>2.5.1.Final-SNAPSHOT</version.keycloak>
     </properties>
 
     <dependencyManagement>
