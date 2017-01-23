@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.redhat.bom.rh-sso</groupId>
-        <artifactId>rh-sso-bom</artifactId>
+        <artifactId>rh-sso-adapter-bom</artifactId>
         <version>7.1.0-SNAPSHOT</version>
     </parent>
     <artifactId>rh-sso-eap6-bom</artifactId>
