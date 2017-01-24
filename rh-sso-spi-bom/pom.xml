@@ -35,7 +35,7 @@
             <dependency>
                 <groupId>org.keycloak</groupId>
                 <artifactId>keycloak-server-spi</artifactId>
-                <version>${build.version}</version>
+                <version>${version.keycloak}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -58,6 +58,16 @@
         <version.keycloak>2.5.1.Final-SNAPSHOT</version.keycloak>
     </properties>
 
+     <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.keycloak</groupId>
+                <artifactId>keycloak-core</artifactId>
+                <version>${version.keycloak}</version>
+            </dependency>
+	</dependencies>
+    </dependencyManagement>
+
     <modules>
 	<module>rh-sso-adapter-bom</module>
         <module>rh-sso-spi-bom</module>
