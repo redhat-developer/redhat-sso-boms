@@ -21,11 +21,14 @@
     <parent>
         <groupId>com.redhat.bom.rh-sso</groupId>
         <artifactId>rh-sso-adapter-bom</artifactId>
-        <version>7.1.0-SNAPSHOT</version>
+        <version>7.1.0.GA</version>
     </parent>
 
     <artifactId>rh-sso-fuse-bom</artifactId>
     <packaging>pom</packaging>
+
+    <name>Red Hat Single Sign-On BOM for Fuse adapter</name>
+    <description>Red Hat Single Sign-On BOM for Fuse adapter</description>
 
     <licenses>
         <license>
