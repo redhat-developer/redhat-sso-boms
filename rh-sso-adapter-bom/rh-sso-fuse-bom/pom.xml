@@ -42,7 +42,7 @@
     </repositories>
 
     <properties>
-        <version.jboss.fuse>6.3.0.redhat-187</version.jboss.fuse>
+        <version.jboss.fuse>6.3.0.redhat-224</version.jboss.fuse>
     </properties>
 
     <dependencyManagement>
