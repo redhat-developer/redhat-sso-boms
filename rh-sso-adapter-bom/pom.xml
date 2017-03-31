@@ -52,26 +52,6 @@
                 <artifactId>keycloak-saml-adapter-api-public</artifactId>
                 <version>${version.keycloak}</version>
             </dependency>
-            <dependency>
-                <groupId>org.keycloak</groupId>
-                <artifactId>keycloak-osgi-adapter</artifactId>
-                <version>${version.keycloak}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.keycloak</groupId>
-                <artifactId>keycloak-jetty-adapter-spi</artifactId>
-                <version>${version.keycloak}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.keycloak</groupId>
-                <artifactId>keycloak-jetty-core</artifactId>
-                <version>${version.keycloak}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.keycloak</groupId>
-                <artifactId>keycloak-jetty92-adapter</artifactId>
-                <version>${version.keycloak}</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
 
