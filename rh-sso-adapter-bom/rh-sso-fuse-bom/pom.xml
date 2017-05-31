@@ -21,7 +21,7 @@
     <parent>
         <groupId>com.redhat.bom.rh-sso</groupId>
         <artifactId>rh-sso-adapter-bom</artifactId>
-        <version>7.1.1.CR2</version>
+        <version>7.1.1.GA</version>
     </parent>
 
     <artifactId>rh-sso-fuse-bom</artifactId>
