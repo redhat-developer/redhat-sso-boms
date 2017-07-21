@@ -20,7 +20,7 @@
 
     <groupId>com.redhat.bom.rh-sso</groupId>
     <artifactId>rh-sso-bom</artifactId>
-    <version>7.1.1.GA</version>
+    <version>7.1.2.GA</version>
 
     <packaging>pom</packaging>
 
@@ -55,7 +55,7 @@
     </scm>
 
     <properties>
-        <version.keycloak>2.5.8.Final-redhat-1</version.keycloak>
+        <version.keycloak>2.5.9.Final-redhat-1</version.keycloak>
         <version.jboss.logging>3.3.0.Final</version.jboss.logging>
     </properties>
 
