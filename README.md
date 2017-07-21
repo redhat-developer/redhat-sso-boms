@@ -13,7 +13,7 @@ To use the BOM, import into your dependency management. For example, if you're u
             <dependency>
                 <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>rh-sso-eap7-bom</artifactId>
-                <version>7.1.1.GA</version>
+                <version>7.1.2.GA</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
@@ -26,7 +26,7 @@ If you're using EAP 6, use:
             <dependency>
                 <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>rh-sso-eap6-bom</artifactId>
-                <version>7.1.1.GA</version>
+                <version>7.1.2.GA</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
