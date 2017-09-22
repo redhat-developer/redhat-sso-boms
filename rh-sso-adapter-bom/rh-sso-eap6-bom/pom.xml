@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.redhat.bom.rh-sso</groupId>
         <artifactId>rh-sso-adapter-bom</artifactId>
-        <version>7.1.2.GA</version>
+        <version>7.1.3.GA</version>
     </parent>
 
     <artifactId>rh-sso-eap6-bom</artifactId>
