@@ -55,7 +55,7 @@
     </scm>
 
     <properties>
-        <version.keycloak>2.5.12.Final-redhat-1</version.keycloak>
+        <version.keycloak>2.5.13.Final-redhat-1</version.keycloak>
         <version.jboss.logging>3.3.0.Final</version.jboss.logging>
     </properties>
 
