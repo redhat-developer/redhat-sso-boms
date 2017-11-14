@@ -41,8 +41,8 @@
     </repositories>
 
     <properties>
-        <version.jboss.spec>3.0.2.Final</version.jboss.spec>
-        <version.httpclient>4.3.6</version.httpclient>
+        <version.jboss.spec.javaee-6>3.0.2.Final</version.jboss.spec.javaee-6>
+        <version.httpclient.eap6>4.3.6</version.httpclient.eap6>
     </properties>
 
     <dependencyManagement>
@@ -50,14 +50,14 @@
             <dependency>
                 <groupId>org.jboss.spec</groupId>
                 <artifactId>jboss-javaee-6.0</artifactId>
-                <version>${version.jboss.spec}</version>
+                <version>${version.jboss.spec.javaee-6}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
-                <version>${version.httpclient}</version>
+                <version>${version.httpclient.eap6}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -42,8 +42,8 @@
     </repositories>
 
     <properties>
-        <version.jboss.spec>1.0.3.Final</version.jboss.spec>
-        <version.httpclient>4.5</version.httpclient>
+        <version.jboss.spec.javaee-7>1.0.3.Final</version.jboss.spec.javaee-7>
+        <version.httpclient.eap7>4.5</version.httpclient.eap7>
     </properties>
 
     <dependencyManagement>
@@ -51,14 +51,14 @@
             <dependency>
                 <groupId>org.jboss.spec</groupId>
                 <artifactId>jboss-javaee-7.0</artifactId>
-                <version>${version.jboss.spec}</version>
+                <version>${version.jboss.spec.javaee-7}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
-                <version>${version.httpclient}</version>
+                <version>${version.httpclient.eap7}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
