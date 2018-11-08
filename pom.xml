@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     JBoss, Home of Professional Open Source
-    Copyright 2016, Red Hat, Inc. and/or its affiliates, and individual
+    Copyright 2018, Red Hat, Inc. and/or its affiliates, and individual
     contributors by the @authors tag. See the copyright.txt in the
     distribution for a full listing of individual contributors.
 
@@ -19,8 +19,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.redhat.bom.rh-sso</groupId>
-    <artifactId>rh-sso-bom</artifactId>
-    <version>7.2.0.DR4</version>
+    <artifactId>rh-sso-bom-parent</artifactId>
+    <version>7.3.0.GA</version>
 
     <packaging>pom</packaging>
 
@@ -34,6 +34,10 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
+    <properties>
+        <version.keycloak>4.5.0.Final</version.keycloak>
+    </properties>
 
     <repositories>
         <repository>
@@ -54,29 +58,20 @@
         <url>https://github.com/redhat-developer/redhat-sso-boms</url>
     </scm>
 
-    <properties>
-        <version.keycloak>3.3.0.CR2-redhat-1</version.keycloak>
-        <version.jboss.logging>3.3.0.Final</version.jboss.logging>
-    </properties>
-
      <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.keycloak</groupId>
-                <artifactId>keycloak-core</artifactId>
+                <groupId>org.keycloak.bom</groupId>
+                <artifactId>keycloak-bom-parent</artifactId>
                 <version>${version.keycloak}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.jboss.logging</groupId>
-                <artifactId>jboss-logging</artifactId>
-                <version>${version.jboss.logging}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 	</dependencies>
     </dependencyManagement>
 
     <modules>
-	<module>rh-sso-adapter-bom</module>
-        <module>rh-sso-spi-bom</module>
+	<module>adapter</module>
+        <module>spi</module>
     </modules>
-
 </project>
