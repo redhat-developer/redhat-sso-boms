@@ -6,27 +6,27 @@ The RH-SSO BOM's project provides Maven BOM files which manages the version of t
 Usage
 -----
 
-To use the BOM, import into your dependency management. For example, if you're using EAP 7, use:
+To use the BOM, import it into your dependency management. For adapters import the following BOM:
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.redhat.bom.rh-sso</groupId>
-                <artifactId>rh-sso-eap7-bom</artifactId>
-                <version>7.1.2.GA</version>
+                <artifactId>rh-sso-adapter-bom</artifactId>
+                <version>7.3.0.GA</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
 
-If you're using EAP 6, use:
+For server extensions import the following BOM:
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>com.redhat.bom.rh-sso</groupId>
-                <artifactId>rh-sso-eap6-bom</artifactId>
-                <version>7.1.2.GA</version>
+                <artifactId>rh-sso-spi-bom</artifactId>
+                <version>7.3.0.GA</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
