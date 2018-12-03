@@ -32,3 +32,15 @@ For server extensions import the following BOM:
         </dependencies>
     </dependencyManagement>
 
+In order to add utilities modules for integration tests used by the quickstarts, import the following BOM:
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.redhat.bom.rh-sso</groupId>
+                <artifactId>rh-sso-misc-bom</artifactId>
+                <version>7.3.0.GA</version>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>

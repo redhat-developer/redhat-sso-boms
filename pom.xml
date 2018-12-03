@@ -71,7 +71,8 @@
     </dependencyManagement>
 
     <modules>
-	<module>adapter</module>
+	      <module>adapter</module>
         <module>spi</module>
+        <module>misc</module>
     </modules>
 </project>
