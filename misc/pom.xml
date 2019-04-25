@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.redhat.bom.rh-sso</groupId>
+        <groupId>com.redhat.bom.rh-sso-cd</groupId>
         <artifactId>rh-sso-bom-parent</artifactId>
         <version>7.4.0.CD05</version>
     </parent>
