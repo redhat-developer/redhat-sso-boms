@@ -21,7 +21,7 @@
     <parent>
         <groupId>com.redhat.bom.rh-sso-cd</groupId>
         <artifactId>rh-sso-bom-parent</artifactId>
-        <version>7.4.0.CD05</version>
+        <version>7.0.0</version>
     </parent>
 
     <artifactId>rh-sso-spi-bom</artifactId>
