@@ -20,7 +20,7 @@
 
     <groupId>com.redhat.bom.rh-sso-cd</groupId>
     <artifactId>rh-sso-bom-parent</artifactId>
-    <version>7.4.0.CD05</version>
+    <version>7.0.0</version>
 
     <packaging>pom</packaging>
 
@@ -36,7 +36,7 @@
     </licenses>
 
     <properties>
-        <version.keycloak>5.0.0.redhat-00002</version.keycloak>
+        <version.keycloak>7.0.0.redhat-00001</version.keycloak>
     </properties>
 
     <repositories>
