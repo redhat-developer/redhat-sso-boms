@@ -36,7 +36,7 @@
     </licenses>
 
     <properties>
-        <version.keycloak>7.0.0.redhat-00001</version.keycloak>
+        <version.keycloak>7.0.0.redhat-00002</version.keycloak>
     </properties>
 
     <repositories>
