@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
     JBoss, Home of Professional Open Source
-    Copyright 2018, Red Hat, Inc. and/or its affiliates, and individual
+    Copyright 2020, Red Hat, Inc. and/or its affiliates, and individual
     contributors by the @authors tag. See the copyright.txt in the
     distribution for a full listing of individual contributors.
 
@@ -20,7 +20,7 @@
 
     <groupId>com.redhat.bom.rh-sso</groupId>
     <artifactId>rh-sso-bom-parent</artifactId>
-    <version>7.3.0.GA</version>
+    <version>7.4.0.GA</version>
 
     <packaging>pom</packaging>
 
@@ -36,7 +36,7 @@
     </licenses>
 
     <properties>
-        <version.keycloak>4.8.3.Final-redhat-00001</version.keycloak>
+        <version.keycloak>8.0.1</version.keycloak>
     </properties>
 
     <repositories>
@@ -71,7 +71,7 @@
     </dependencyManagement>
 
     <modules>
-	      <module>adapter</module>
+	<module>adapter</module>
         <module>spi</module>
         <module>misc</module>
     </modules>

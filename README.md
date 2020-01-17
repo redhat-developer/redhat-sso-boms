@@ -13,7 +13,7 @@ To use the BOM, import it into your dependency management. For adapters import t
             <dependency>
                 <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>rh-sso-adapter-bom</artifactId>
-                <version>7.3.0.GA</version>
+                <version>7.4.0.GA</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
@@ -26,7 +26,7 @@ For server extensions import the following BOM:
             <dependency>
                 <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>rh-sso-spi-bom</artifactId>
-                <version>7.3.0.GA</version>
+                <version>7.4.0.GA</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
@@ -39,7 +39,7 @@ In order to add utilities modules for integration tests used by the quickstarts,
             <dependency>
                 <groupId>com.redhat.bom.rh-sso</groupId>
                 <artifactId>rh-sso-misc-bom</artifactId>
-                <version>7.3.0.GA</version>
+                <version>7.4.0.GA</version>
                 <scope>import</scope>
             </dependency>
         </dependencies>
